@@ -8,7 +8,7 @@ spec:
     - name: app-name
       value: express-sample-app
     - name: source-repo
-      value: https://github.com/cloud-native-garage-method-cohort/chuying-james-buildah
+      value: https://github.com/cloud-native-garage-method-cohort/james-grimshaw-express
     - name: image-repo
       value: quay.io/chuuuing/express-sample-app
   pipelineRef:
