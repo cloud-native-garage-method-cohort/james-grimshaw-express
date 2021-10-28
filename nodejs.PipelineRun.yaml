@@ -5,6 +5,8 @@ metadata:
 spec:
   serviceAccountName: build-bot
   params:
+    - name: app-name
+      value: express-sample-app
     - name: source-repo
       value: https://github.com/cloud-native-garage-method-cohort/chuying-james-buildah
     - name: image-repo
@@ -19,4 +21,4 @@ spec:
             requests:
               storage: 1Gi
           accessModes:
-              - ReadWriteOnce
+            - ReadWriteOnce
